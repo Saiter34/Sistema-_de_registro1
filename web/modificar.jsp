@@ -18,7 +18,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
         <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
-        <<link rel="stylesheet" href="css/panles.css"/>>
+        <<link rel="stylesheet" href="css/modificar.css"/>>
     </head>
     <body>
         <div class="header-box">

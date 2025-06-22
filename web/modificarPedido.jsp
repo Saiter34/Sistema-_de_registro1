@@ -16,7 +16,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Modificar Pedido</title>
    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
-        <<link rel="stylesheet" href="css/panles.css"/>>
+        <<link rel="stylesheet" href="css/modificarPedi.css"/>>
 
 </head>
 <body>
@@ -110,10 +110,10 @@
             <!-- Botones -->
             <div class="buttons">
                 <button type="submit" class="btn btn-primary">
-                    💾 Guardar Cambios
+                    Guardar Cambios
                 </button>
                 <a href="ControlerPedido?Op=Listar" class="btn btn-secondary">
-                    ↩️ Volver al Listado
+                    Volver al Listado
                 </a>
             </div>
         </form>

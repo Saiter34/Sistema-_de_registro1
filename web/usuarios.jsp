@@ -14,7 +14,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Gestión de Usuarios</title>
         <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/nuevoProduc.css"/>
+        <link rel="stylesheet" href="css/usuario.css"/>
         <script>
             function confirmarEliminacion(usuario) {
                 if (usuario === 'JGARCIA') {
@@ -112,7 +112,7 @@
                     
                     <div class="form-group">
                         <label for="txtUsuarioEdit">ID Usuario:</label>
-                        <input type="text" id="txtUsuarioEdit" name="txtUsuario" 
+                       <input type="text" id="txtUsuario" name="txtUsuario" class="input-id" required maxlength="50"> 
                                value="<%= usuarioEditar.getIdUsuario() %>" 
                                required maxlength="50"
                                <%= "JGARCIA".equals(usuarioEditar.getIdUsuario()) ? "readonly style='background-color: #f8f9fa;'" : "" %>>

@@ -18,14 +18,15 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
         <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
-        <<link rel="stylesheet" href="css/panles.css"/>>
+        <<link rel="stylesheet" href="css/consultar.css?v=<%= System.currentTimeMillis() %>">
     </head>
     <body>
         <div class="header-box">
             <h1>Consulta de pedido</h1>
              <a href="index.jsp" class="back-button">Volver al menú principal</a>
         </div> 
-        <table border="1">
+         <div class="welcome-box">
+        <table>
               
             <c:forEach var="campo" items="${Lista}">
                 <tr>
@@ -54,6 +55,6 @@
                 </tr>                
             </c:forEach>
         </table>
-
+         </div>
     </body>
 </html>

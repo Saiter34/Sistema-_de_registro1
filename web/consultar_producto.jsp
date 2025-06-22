@@ -11,7 +11,7 @@
     <script src="sessionTimeout.js"></script>
     <title>Consultar Producto</title>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
-        <<link rel="stylesheet" href="css/panles.css"/>>
+        <<link rel="stylesheet" href="css/consultar.css?v=<%= System.currentTimeMillis() %>">
 </head>
 <body>
     <div class="header-box">
@@ -20,13 +20,15 @@
         </div> 
 
     <c:if test="${not empty producto}">
-        <table border="1">
+         <div class="welcome-box">
+        <table>
             <tr><th>Id Producto</th><td>${producto.id}</td></tr>
             <tr><th>Descripción</th><td>${producto.descripcion}</td></tr>
             <tr><th>Costo</th><td>${producto.costo}</td></tr>
             <tr><th>Precio</th><td>${producto.precio}</td></tr>
             <tr><th>Cantidad</th><td>${producto.cantidad}</td></tr>
         </table>
+         </div>
     </c:if>
 
     <c:if test="${empty producto}">
